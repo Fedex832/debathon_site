@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@charset "utf-8";
+@import "./reset.css";
+
+.contactPage {
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#formSpace {
+  display: flex;
+  justify-content: center;
+}
+
+.formulaire {
+  border-radius: 40px;
+  background-color: cornsilk;
+  width: 80vw;
+  height: 750px;
+}
+
+#contactForm {
+  display: flex;
+  justify-content: center;
+}
+
+.formulaire form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  width: 80%;
+}
+
+.formulaire input {
+  border-radius: 25px;
+}
+#message {
+  height: 200px;
+}
+
+#contactButton {
+  display: flex;
+  justify-content: center;
+}
+
+.formulaire button {
+  color: white;
+  background-color: crimson;
+  border-radius: 25px;
+  width: 100px;
+  height: 50px;
+}
+
+#mailBar {
+  background-color: blue;
 }
